@@ -1,11 +1,11 @@
 name: mpm-lecture
-channels:
+channels: #tells conda within which channels to look for packages
   - conda-forge
   - nodefaults
-dependencies:
+dependencies: #specifies the packages to be installed in the environment
   - python=3.14
   - pip
   - numpy>=2.1
   - matplotlib>=3.10
-  - pip:
+  - pip: #specifies the pip packages to be installed in the environment
       - -e . # install local repo
