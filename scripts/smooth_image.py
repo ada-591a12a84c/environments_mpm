@@ -18,3 +18,4 @@ plt.show(block=True)
 
 #pip install scipy 
 #pip install scikit-image
+#python scripts/smooth_image.py
